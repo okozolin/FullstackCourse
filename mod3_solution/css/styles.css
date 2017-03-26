@@ -1,0 +1,49 @@
+body {
+    font-size: 16px;
+    color: #383333;
+    background-color: lightpink;
+    font-family: 'Oxygen', sans-serif; 
+}
+#header-nav{
+   background-color: #f5eded;
+    border: 1px solid gray;
+} 
+
+.navbar-brand{
+    height: auto;
+}
+.navbar {
+    border-radius: 0px;
+}   
+    
+#chicken-menu {
+    background-color: #f5eded;
+    margin-top: 30px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#nav-list {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div#collapse-ourmenu{
+    text-align: center;
+   
+}
+div>ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1.5px solid gray;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #chicken-menu {
+        width: 360px;
+        margin: 20 auto 15px;
+    }
+}
